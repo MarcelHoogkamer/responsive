@@ -6,41 +6,52 @@ body{
   body {
     background-color: #ff0000;
     font-size: 10px;
-    float: left;
-    display: inline-block;
     width: 100%;
+    box-sizing: border-box;
   }
   #small {
     width: 100%;
     padding: 0;
+    display: block;
+    float: left;
   }
   #medium{
     width: 100%;
     padding: 0;
+    display: block;
+    float: left;
   }
   #large {
     width: 100%;
     padding: 0;
+    display: block;
+    float: left;
   }
 }
 
 @media screen and (min-width: 300px) and (max-width: 768px) {
   body {
     background-color: green;
+    float: left;
     font-size: 20px;
-    display: inline-block;
+    box-sizing: border-box;
   }
   #small {
-    width: 66%;
+    width: 66.66%;
     padding: 0;
+    display: inline-block;
+    float: left;
   }
   #medium{
-    width: 33%;
+    width: 33.33%;
     padding: 0;
+    display: inline-block;
+    float: left;
   }
   #large {
     width: 100%;
     padding: 0;
+    float: left;
   }
 }
 
@@ -48,18 +59,24 @@ body{
   body {
     background-color: blue;
     font-size: 30px;
-    display: inline-block;
+    box-sizing: border-box;
   }
   #small {
-    width: 33%;
+    width: 33.33%;
     padding: 0;
+    display: inline-block;
+    float: left;
   }
   #medium{
-    width: 33%;
+    width: 33.33%;
     padding: 0;
+    display: inline-block;
+    float: left;
   }
   #large {
     width: 33%;
     padding: 0;
+    display: inline-block;
+    float: left;
   }
 }
